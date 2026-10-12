@@ -1,7 +1,7 @@
 Manta Studio – Privacy Policy
 
 
-Last updated: 11 October 2026
+Last updated: 12 October 2026
 
 
 This Privacy Policy explains how we handle information when merchants install and use our Shopify apps. It applies to all of the following apps (each an "App", together the "Apps"):
@@ -20,7 +20,7 @@ This Privacy Policy explains how we handle information when merchants install an
 Who we are
 
 
-The Apps are made by [YOUR FULL NAME OR BUSINESS NAME], based in the Netherlands ("we", "our", "us"). We are responsible for the personal information described in this policy. You can reach us at hello@mantastudio.app.
+The Apps are made by Tell van den Bergh applications, based in the Netherlands ("we", "our", "us"). We are responsible for the personal information described in this policy. You can reach us at hello@mantastudio.app.
 
 
 Information we access
@@ -39,7 +39,7 @@ Information we store
 
 
  • Plan and preferences: whether your store is on the Free or Pro plan, which messages you have dismissed in the App (such as the setup guide), and whether we have asked for a review. This is stored in your own Shopify store, as app data attached to your installation. It is deleted automatically when you uninstall the App.
- • Login sessions: while you use an App, we keep a temporary login session so the App can talk to your store through Shopify's APIs. Sessions are kept in memory only and are not written to a database.
+ • Login sessions: so an App can talk to your store through Shopify's APIs, including when Shopify notifies us of plan changes, we store a login session for your store (your store domain and an access token from Shopify). Sessions are deleted when you uninstall the App.
  • Support messages: if you contact us through the support form in an App or by email, we receive your name, email address, store domain and your message. We keep these only as long as needed to help you, and no longer than 24 months.
 
 
@@ -76,6 +76,7 @@ We use a small number of trusted service providers to run the Apps. They only pr
 
  • Shopify – hosts your store, handles billing for the Apps and stores the app data described above
  • Vercel – hosts the Apps' servers. Like any web host, it keeps short-lived technical logs, which may include IP addresses
+ • Upstash – stores the login sessions described above
  • Resend – delivers the messages sent through the support form to our inbox
 
 We do not share your information with anyone else, unless the law requires us to.
