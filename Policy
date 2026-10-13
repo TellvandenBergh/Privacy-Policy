@@ -48,8 +48,9 @@ Your customers
 
 The Apps do not collect, store or process any personal information about your customers or store visitors.
 
-The visual effects run in your visitors' browsers. Two effects save a small technical value in the visitor's browser, without any personal information:
+The visual effects run in your visitors' browsers. Three effects save a small technical value in the visitor's browser, without any personal information:
 
+ • The custom cursor remembers where it was on the screen, so it stays in place when a visitor opens the next page. This is kept for the browser session only.
  • Page Transition remembers where a visitor clicked, so the "open" transition starts from that point on the next page. This is kept for the browser session only.
  • The "Pro feature" notice remembers that it was closed, so it isn't shown again right away. This notice only appears in the theme editor and on unpublished theme previews, never on your live store.
 
